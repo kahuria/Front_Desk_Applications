@@ -1,0 +1,117 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+      \
+      
+      
+      
+      Login form
+      
+package login.systems;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.awt.FlowLayout; 
+
+
+
+       
+    JPanel mypanel=new JPanel();
+    login.systems.LoginSystems.main(LoginSystems.java);
+    login.systems.JLable UserNamelable=new JLable("UserName");
+    JTextField UserName=new JTextField();
+        UserName.setColumns(20);
+    login.systems.JLable passwordlable=new JLable("Password");    
+    JTextField password=new JTextField();
+    JButton login=new JButton("Login");
+    JButton exit=new JButton ("Exit");
+        password.setColumns(20);
+        mypanel.add(UserName);
+        mypanel.add(password);
+        mypanel.add(exit);
+        myframe.add(myframe);
+         myframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        myframe.setVisible(true);
+        myframe.setSize(400,400);
+        
+        
+        
+
+    }
+    
+}
+
+
+             Gender Balance Pie Chart
+             
+              */
+public class PieChart extends JFrame 
+{
+    private String Male;
+    private String Female;
+    
+    
+    public PieChart()
+    {
+        setPercentage();
+    }
+
+    private void setPercentage()
+    {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+//construct a pie chart with percentages
+public PieChart(String Male, String Female)
+{    
+     this.Male=Male;
+     this.Female=Female;
+    
+}
+//return Male
+public String getMale()
+{
+    return Male;
+}
+//return Female
+public String getFemale()
+{
+    return Female;
+}
+//draw the circle
+protected void paitComponet(Graphics g)
+{
+    super.paintComponents(g);
+}
+//initialize circle paramenters
+int circleRadius=
+        (int)(Math.min(getWidth(), getHeight())*0.4);
+int xCenter=getWidth()/2;
+int yCenter=getHeight()/2;
+}
+
+
+
+
+                  Database Table
+ jdbc:derby://localhost:1527/Reception [employee on EMPLOYEE]
